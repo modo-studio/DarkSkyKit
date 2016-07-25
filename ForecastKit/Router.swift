@@ -39,6 +39,9 @@ enum Router: URLRequestConvertible {
         if let extend = configuration.extend {
             parameters.updateValue(extend.rawValue, forKey: "extend")
         }
+        if let lang = configuration.lang {
+            parameters.updateValue(lang, forKey: "lang")
+        }
         return parameters
     }
     
@@ -46,7 +49,6 @@ enum Router: URLRequestConvertible {
         let URL = NSURL(string: Router.baseURLString)!
         let mutableURLRequest = NSMutableURLRequest(URL: URL.URLByAppendingPathComponent(path))
         mutableURLRequest.HTTPMethod = method.rawValue
-        
         return Alamofire.ParameterEncoding.URL.encode(mutableURLRequest, parameters: self.params).0
     }
 }

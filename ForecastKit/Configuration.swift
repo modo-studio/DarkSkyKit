@@ -19,23 +19,6 @@ public struct Configuration {
         self.extend = extend
         self.lang = lang
     }
-    
-    var params: [String: String] {
-        var params: [String: String] = [:]
-        if let units = units {
-            params["units"] = units.rawValue
-        }
-        if let exclude = exclude {
-            params["exclude"] = exclude.rawValue
-        }
-        if let extend = extend {
-            params["extend"] = extend.rawValue
-        }
-        if let lang = lang {
-            params["lang"] = lang
-        }
-        return params
-    }
 }
 
 enum Unit: String {
