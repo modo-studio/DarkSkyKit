@@ -1,7 +1,6 @@
 import Foundation
 
 public struct Forecast {
-    
     var latitude: Double
     var longitude: Double
     var timezone: String
@@ -42,5 +41,12 @@ public struct Forecast {
         if let flags = data["hoflagsurly"] as? [String: AnyObject] {
             self.flags = ForecastFlags.map(flags)
         }
+    }
+}
+
+extension NSDate {
+    convenience init?(time: Double?) {
+        guard let t = time else { return nil }
+        self.init(timeIntervalSince1970: t)
     }
 }
