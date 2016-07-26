@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E433E8E1D476BA80056479A /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E433E8D1D476BA80056479A /* Forecast.swift */; };
 		5525DC861D3D8ACA00D3967C /* ForecastKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5525DC7C1D3D8ACA00D3967C /* ForecastKit.framework */; };
 		5525DC951D3D8C2E00D3967C /* ForecastKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC941D3D8C2E00D3967C /* ForecastKit.swift */; };
 		5525DC971D3D973A00D3967C /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC961D3D973A00D3967C /* Current.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		099657DFEBE821B0318B828F /* Pods_ForecastKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForecastKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E433E8D1D476BA80056479A /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		4ACA336867AD8493662DEE26 /* Pods-ForecastKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForecastKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForecastKit/Pods-ForecastKit.debug.xcconfig"; sourceTree = "<group>"; };
 		5525DC631D3D89FF00D3967C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5525DC6C1D3D89FF00D3967C /* ForecastKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastKitTests.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				5525DC941D3D8C2E00D3967C /* ForecastKit.swift */,
+				1E433E8D1D476BA80056479A /* Forecast.swift */,
 				5525DC9A1D3D9ECA00D3967C /* Configuration.swift */,
 				5525DC961D3D973A00D3967C /* Current.swift */,
 				5525DC981D3D974700D3967C /* TimeMachine.swift */,
@@ -332,6 +335,7 @@
 				5525DC971D3D973A00D3967C /* Current.swift in Sources */,
 				5535ADED1D44270D002959EC /* Router.swift in Sources */,
 				5525DC9B1D3D9ECA00D3967C /* Configuration.swift in Sources */,
+				1E433E8E1D476BA80056479A /* Forecast.swift in Sources */,
 				5525DC991D3D974700D3967C /* TimeMachine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
