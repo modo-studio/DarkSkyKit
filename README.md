@@ -1,1 +1,1 @@
-# ForecastKit
+![logo](assets/forecast-kit-logo.png)
