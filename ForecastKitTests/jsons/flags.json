@@ -1,0 +1,45 @@
+{
+    "flags": {
+        "darksky-stations": [
+                             "1",
+                             "2"
+                             ],
+        "datapoint-stations": [
+                               "1",
+                               "2"
+                               ],
+        "lamp-stations": [
+                          "1",
+                          "2"
+                          ],
+        "metar-stations": [
+                           "1",
+                           "2"
+                           ],
+        "metno-license": [
+                          "1",
+                          "2"
+                          ],
+        "sources": [
+                    "gfs",
+                    "cmc",
+                    "fnmoc",
+                    "isd",
+                    "madis"
+                    ],
+        "isd-stations": [
+                         "081763-99999",
+                         "081800-99999",
+                         "081810-99999",
+                         "081820-99999",
+                         "081860-99999"
+                         ],
+        "madis-stations": [
+                           "IBCX5",
+                           "LEBL",
+                           "LELL",
+                           "ZCDP8"
+                           ],
+        "units": "si"
+    }
+}

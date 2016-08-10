@@ -21,7 +21,7 @@ public struct ForecastFlags {
         f.madisStations = data["madis-stations"] as? [String] ?? nil
         f.metnoLicense = data["metno-license"] as? [String] ?? nil
         f.sources = data["sources"] as? [String] ?? nil
-        f.units = data["units-stations"] as? String ?? nil
+        f.units = data["units"] as? String ?? nil
         return f
     }
 }
