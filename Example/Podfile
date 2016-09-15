@@ -1,7 +1,7 @@
 target 'ForecastKit' do
   use_frameworks!
 
-  pod 'Alamofire'
+  pod 'Alamofire', '3.5.0'
 
   target 'ForecastKitTests' do
     inherit! :search_paths
