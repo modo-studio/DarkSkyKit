@@ -3,14 +3,14 @@ import Alamofire
 
 enum Router: URLRequestConvertible {
     private static let baseURLString = "https://api.forecast.io"
-    
+
     case Current(Configuration, Double, Double)
     case TimeMachine(Configuration, Double, Double, NSDate)
-    
+
     var method: Alamofire.Method {
         return .GET
     }
-    
+
     var path: String {
         switch self {
         case .Current(let c, let lat, let long):
@@ -19,7 +19,7 @@ enum Router: URLRequestConvertible {
             return "/forecast/\(c.token)/\(lat),\(long),\(date.timeIntervalSince1970)"
         }
     }
-    
+
     var params: [String: AnyObject] {
         var configuration: Configuration
         switch self {
@@ -44,10 +44,10 @@ enum Router: URLRequestConvertible {
         }
         return parameters
     }
-    
+
     var URLRequest: NSMutableURLRequest {
         let URL = NSURL(string: Router.baseURLString)!
-        let mutableURLRequest = NSMutableURLRequest(URL: URL.URLByAppendingPathComponent(path)!)
+        let mutableURLRequest = NSMutableURLRequest(URL: URL.URLByAppendingPathComponent(path))
         mutableURLRequest.HTTPMethod = method.rawValue
         return Alamofire.ParameterEncoding.URL.encode(mutableURLRequest, parameters: self.params).0
     }
