@@ -1,34 +1,34 @@
-![ForecastKit: ForecastKit API Client in Swift](assets/forecast-kit-logo.png)
+![DarkSkyKit: DarkSkyKit API Client in Swift](assets/darksky-header.png)
 
-[![Build Status](https://travis-ci.org/carambalabs/ForecastKit.svg?branch=master)](https://travis-ci.org/carambalabs/ForecastKit)
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/ForecastKit.svg)](https://img.shields.io/cocoapods/v/ForecastKit.svg)
-[![codecov](https://codecov.io/gh/carambalabs/ForecastKit/branch/master/graph/badge.svg)](https://codecov.io/gh/carambalabs/ForecastKit)
+[![Build Status](https://travis-ci.org/carambalabs/DarkSkyKit.svg?branch=master)](https://travis-ci.org/carambalabs/DarkSkyKit)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/DarkSkyKit.svg)](https://img.shields.io/cocoapods/v/DarkSkyKit.svg)
+[![codecov](https://codecov.io/gh/carambalabs/DarkSkyKit/branch/master/graph/badge.svg)](https://codecov.io/gh/carambalabs/DarkSkyKit)
 
-[Forecast.io](https://forecast.io) API client written in Swift.
+[DarkSky.net](https://darksky.net) API client written in Swift.
 
 ## Usage
 
 ```swift
-import ForecastKit
+import DarkSkyKit
 ```
 
 ### Init
 
 #### Basic Configuration
-Init the ForecastKit client using only the api token.
+Init the DarkSkyKit client using only the api token.
 ```swift
-let forecastClient = ForecastKit(apiToken: "AAA")
+let forecastClient = DarkSkyKit(apiToken: "AAA")
 ```
 
 #### Extended Configuration
-Init the ForecastKit client using a custom configuration. Check the [forecast.io documentation](https://developer.forecast.io/docs/v2) to know more about these properties (units, exclude, extend & language).
+Init the DarkSkyKit client using a custom configuration. Check out the [darksky.net documentation](https://darksky.net/dev/) to know more about these properties (units, exclude, extend & language).
 ```swift
 let c = Configuration(token: "AAA", units: .si, exclude: .alerts, lang: "ES")
-let forecastClient = ForecastKit(configuration: c)
+let forecastClient = DarkSkyKit(configuration: c)
 ```
 
 ### Fetch
-Forecast.io API provides 2 ways of fetch weather data: current and time machine.
+DarkSkt.net API provides 2 ways of fetch weather data: current and time machine.
 
 #### Current
 Fetch current weather conditions based on a given location.
@@ -67,7 +67,7 @@ forecastClient.current(latitude: 0.34565, longitude: 1.64559, date: d) { result 
 To install it, simply add the following line to your Podfile:
 
 ```ruby
-pod "ForecastKit"
+pod "DarkSkyKit"
 ```
 
 ## About
@@ -84,4 +84,4 @@ Contributions are welcome :metal: We encourage developers like you to help us im
 
 ## License
 
-ForecastKit is available under the MIT license. See the LICENSE file for more info.
+DarkSkyKit is available under the MIT license. See the LICENSE file for more info.
