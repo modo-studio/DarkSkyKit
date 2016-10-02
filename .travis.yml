@@ -5,9 +5,9 @@ notifications:
 before_install:
 - gem install bundler
 - bundle install
-- bundle exec pod repo add carambalabs https://github.com/carambalabs/ForecastKit
+- bundle exec pod repo add carambalabs https://github.com/carambalabs/DarkSkyKit
 - bundle exec pod repo update --silent
-- git remote set-url origin "https://${GITHUB_TOKEN}@github.com/carambalabs/ForecastKit.git"
+- git remote set-url origin "https://${GITHUB_TOKEN}@github.com/carambalabs/DarkSkyKit.git"
 script:
 - bundle exec fastlane travis
 after_success:
