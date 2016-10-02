@@ -1,9 +1,9 @@
-target 'ForecastKit' do
+target 'DarkSkyKitExample' do
   use_frameworks!
 
   pod 'Alamofire', '3.5.0'
 
-  target 'ForecastKitTests' do
+  target 'DarkSkyKitExampleTests' do
     inherit! :search_paths
     # Pods for testing
   end

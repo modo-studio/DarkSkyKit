@@ -24,15 +24,17 @@
 		1E433E981D4792500056479A /* ForecastAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E433E961D4792500056479A /* ForecastAlert.swift */; };
 		1EA9820D1D48FF1900B3CAD3 /* ForecastFlagsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA9820C1D48FF1900B3CAD3 /* ForecastFlagsTests.swift */; };
 		1EA982111D48FFEB00B3CAD3 /* flags.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EA982101D48FFEB00B3CAD3 /* flags.json */; };
-		5525DC861D3D8ACA00D3967C /* ForecastKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5525DC7C1D3D8ACA00D3967C /* ForecastKit.framework */; };
+		5525DC861D3D8ACA00D3967C /* DarkSkyKitExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5525DC7C1D3D8ACA00D3967C /* DarkSkyKitExample.framework */; };
 		5525DC951D3D8C2E00D3967C /* ForecastKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC941D3D8C2E00D3967C /* ForecastKit.swift */; };
 		5525DC971D3D973A00D3967C /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC961D3D973A00D3967C /* Current.swift */; };
 		5525DC991D3D974700D3967C /* TimeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC981D3D974700D3967C /* TimeMachine.swift */; };
 		5525DC9B1D3D9ECA00D3967C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC9A1D3D9ECA00D3967C /* Configuration.swift */; };
 		5535ADED1D44270D002959EC /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5535ADEC1D44270D002959EC /* Router.swift */; };
 		55B43F371D8AD9640000B3D3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55B43F361D8AD9640000B3D3 /* Info.plist */; };
+		D5E32BD5105B038CA4A10B05 /* Pods_DarkSkyKitExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C1E25F35A04708AEEBE999 /* Pods_DarkSkyKitExampleTests.framework */; };
 		DAF33CAFB1CC77C9DCF3FE8D /* Pods_ForecastKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D103EF99E350C94CF2E7F961 /* Pods_ForecastKitTests.framework */; };
 		E64745D6345B372E99F02457 /* Pods_ForecastKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099657DFEBE821B0318B828F /* Pods_ForecastKit.framework */; };
+		F5ADC57F0B8F2D88A238781B /* Pods_DarkSkyKitExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C2E930139FA5009D7F9220 /* Pods_DarkSkyKitExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +56,13 @@
 		1E433E961D4792500056479A /* ForecastAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastAlert.swift; sourceTree = "<group>"; };
 		1EA9820C1D48FF1900B3CAD3 /* ForecastFlagsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastFlagsTests.swift; sourceTree = "<group>"; };
 		1EA982101D48FFEB00B3CAD3 /* flags.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flags.json; sourceTree = "<group>"; };
+		21505191131C1AA1AC555975 /* Pods-DarkSkyKitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSkyKitExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarkSkyKitExample/Pods-DarkSkyKitExample.debug.xcconfig"; sourceTree = "<group>"; };
+		39C1E25F35A04708AEEBE999 /* Pods_DarkSkyKitExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkSkyKitExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACA336867AD8493662DEE26 /* Pods-ForecastKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForecastKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForecastKit/Pods-ForecastKit.debug.xcconfig"; sourceTree = "<group>"; };
 		5525DC6C1D3D89FF00D3967C /* ConfigurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationTests.swift; sourceTree = "<group>"; };
 		5525DC6E1D3D89FF00D3967C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5525DC7C1D3D8ACA00D3967C /* ForecastKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ForecastKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5525DC851D3D8ACA00D3967C /* ForecastKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForecastKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5525DC7C1D3D8ACA00D3967C /* DarkSkyKitExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DarkSkyKitExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5525DC851D3D8ACA00D3967C /* DarkSkyKitExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkSkyKitExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5525DC941D3D8C2E00D3967C /* ForecastKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastKit.swift; sourceTree = "<group>"; };
 		5525DC961D3D973A00D3967C /* Current.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Current.swift; sourceTree = "<group>"; };
 		5525DC981D3D974700D3967C /* TimeMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeMachine.swift; sourceTree = "<group>"; };
@@ -68,7 +72,11 @@
 		653163D6A76B736BDB8AC81B /* Pods-ForecastKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForecastKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForecastKit/Pods-ForecastKit.release.xcconfig"; sourceTree = "<group>"; };
 		69E1AFFEB523B8AF6CBFF854 /* Pods-ForecastKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForecastKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForecastKitTests/Pods-ForecastKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8781A7AFBF724CA757BBB314 /* Pods-ForecastKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForecastKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForecastKitTests/Pods-ForecastKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4C2E930139FA5009D7F9220 /* Pods_DarkSkyKitExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkSkyKitExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D103EF99E350C94CF2E7F961 /* Pods_ForecastKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForecastKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE43E9BF7E6793CD2ECD5389 /* Pods-DarkSkyKitExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSkyKitExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarkSkyKitExampleTests/Pods-DarkSkyKitExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5287882EDF40734D09FD694 /* Pods-DarkSkyKitExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSkyKitExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarkSkyKitExample/Pods-DarkSkyKitExample.release.xcconfig"; sourceTree = "<group>"; };
+		E52B3C0FE5323EDDF8FE7025 /* Pods-DarkSkyKitExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSkyKitExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarkSkyKitExampleTests/Pods-DarkSkyKitExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E64745D6345B372E99F02457 /* Pods_ForecastKit.framework in Frameworks */,
+				F5ADC57F0B8F2D88A238781B /* Pods_DarkSkyKitExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,8 +93,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5525DC861D3D8ACA00D3967C /* ForecastKit.framework in Frameworks */,
+				5525DC861D3D8ACA00D3967C /* DarkSkyKitExample.framework in Frameworks */,
 				DAF33CAFB1CC77C9DCF3FE8D /* Pods_ForecastKitTests.framework in Frameworks */,
+				D5E32BD5105B038CA4A10B05 /* Pods_DarkSkyKitExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,9 +125,9 @@
 		5525DC4B1D3D89FE00D3967C = {
 			isa = PBXGroup;
 			children = (
-				5525DC561D3D89FF00D3967C /* ForecastKit */,
+				5525DC561D3D89FF00D3967C /* DarkSkyKit */,
 				55B43F351D8AD9640000B3D3 /* SupportingFiles */,
-				5525DC6B1D3D89FF00D3967C /* ForecastKitTests */,
+				5525DC6B1D3D89FF00D3967C /* DarkSkyKitTests */,
 				5525DC551D3D89FF00D3967C /* Products */,
 				B3EBC7B04F4CFC7939EC6614 /* Pods */,
 				BBEA6A2ED8C69CC013A4DE5E /* Frameworks */,
@@ -127,13 +137,13 @@
 		5525DC551D3D89FF00D3967C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5525DC7C1D3D8ACA00D3967C /* ForecastKit.framework */,
-				5525DC851D3D8ACA00D3967C /* ForecastKitTests.xctest */,
+				5525DC7C1D3D8ACA00D3967C /* DarkSkyKitExample.framework */,
+				5525DC851D3D8ACA00D3967C /* DarkSkyKitExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5525DC561D3D89FF00D3967C /* ForecastKit */ = {
+		5525DC561D3D89FF00D3967C /* DarkSkyKit */ = {
 			isa = PBXGroup;
 			children = (
 				5525DC941D3D8C2E00D3967C /* ForecastKit.swift */,
@@ -143,11 +153,11 @@
 				5535ADEC1D44270D002959EC /* Router.swift */,
 				1E433E8F1D4792030056479A /* Models */,
 			);
-			name = ForecastKit;
-			path = ../ForecastKit;
+			name = DarkSkyKit;
+			path = ../DarkSkyKit;
 			sourceTree = "<group>";
 		};
-		5525DC6B1D3D89FF00D3967C /* ForecastKitTests */ = {
+		5525DC6B1D3D89FF00D3967C /* DarkSkyKitTests */ = {
 			isa = PBXGroup;
 			children = (
 				1EA9820F1D48FFB200B3CAD3 /* Data */,
@@ -156,7 +166,7 @@
 				1EA9820C1D48FF1900B3CAD3 /* ForecastFlagsTests.swift */,
 				5525DC6E1D3D89FF00D3967C /* Info.plist */,
 			);
-			path = ForecastKitTests;
+			path = DarkSkyKitTests;
 			sourceTree = "<group>";
 		};
 		55B43F351D8AD9640000B3D3 /* SupportingFiles */ = {
@@ -174,6 +184,10 @@
 				653163D6A76B736BDB8AC81B /* Pods-ForecastKit.release.xcconfig */,
 				69E1AFFEB523B8AF6CBFF854 /* Pods-ForecastKitTests.debug.xcconfig */,
 				8781A7AFBF724CA757BBB314 /* Pods-ForecastKitTests.release.xcconfig */,
+				21505191131C1AA1AC555975 /* Pods-DarkSkyKitExample.debug.xcconfig */,
+				E5287882EDF40734D09FD694 /* Pods-DarkSkyKitExample.release.xcconfig */,
+				DE43E9BF7E6793CD2ECD5389 /* Pods-DarkSkyKitExampleTests.debug.xcconfig */,
+				E52B3C0FE5323EDDF8FE7025 /* Pods-DarkSkyKitExampleTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -183,6 +197,8 @@
 			children = (
 				099657DFEBE821B0318B828F /* Pods_ForecastKit.framework */,
 				D103EF99E350C94CF2E7F961 /* Pods_ForecastKitTests.framework */,
+				A4C2E930139FA5009D7F9220 /* Pods_DarkSkyKitExample.framework */,
+				39C1E25F35A04708AEEBE999 /* Pods_DarkSkyKitExampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -200,9 +216,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5525DC7B1D3D8ACA00D3967C /* ForecastKit */ = {
+		5525DC7B1D3D8ACA00D3967C /* DarkSkyKitExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5525DC8D1D3D8ACA00D3967C /* Build configuration list for PBXNativeTarget "ForecastKit" */;
+			buildConfigurationList = 5525DC8D1D3D8ACA00D3967C /* Build configuration list for PBXNativeTarget "DarkSkyKitExample" */;
 			buildPhases = (
 				7F9644E7CD2E6962A904C7C1 /* [CP] Check Pods Manifest.lock */,
 				5525DC771D3D8ACA00D3967C /* Sources */,
@@ -215,14 +231,14 @@
 			);
 			dependencies = (
 			);
-			name = ForecastKit;
+			name = DarkSkyKitExample;
 			productName = ForecastKit;
-			productReference = 5525DC7C1D3D8ACA00D3967C /* ForecastKit.framework */;
+			productReference = 5525DC7C1D3D8ACA00D3967C /* DarkSkyKitExample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5525DC841D3D8ACA00D3967C /* ForecastKitTests */ = {
+		5525DC841D3D8ACA00D3967C /* DarkSkyKitExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5525DC901D3D8ACA00D3967C /* Build configuration list for PBXNativeTarget "ForecastKitTests" */;
+			buildConfigurationList = 5525DC901D3D8ACA00D3967C /* Build configuration list for PBXNativeTarget "DarkSkyKitExampleTests" */;
 			buildPhases = (
 				41ACE5A6B13F7B8251CE1661 /* [CP] Check Pods Manifest.lock */,
 				5525DC811D3D8ACA00D3967C /* Sources */,
@@ -236,9 +252,9 @@
 			dependencies = (
 				5525DC881D3D8ACA00D3967C /* PBXTargetDependency */,
 			);
-			name = ForecastKitTests;
+			name = DarkSkyKitExampleTests;
 			productName = ForecastKitTests;
-			productReference = 5525DC851D3D8ACA00D3967C /* ForecastKitTests.xctest */;
+			productReference = 5525DC851D3D8ACA00D3967C /* DarkSkyKitExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -259,7 +275,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5525DC4F1D3D89FE00D3967C /* Build configuration list for PBXProject "ForecastKit" */;
+			buildConfigurationList = 5525DC4F1D3D89FE00D3967C /* Build configuration list for PBXProject "DarkSkyKitExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -272,8 +288,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5525DC7B1D3D8ACA00D3967C /* ForecastKit */,
-				5525DC841D3D8ACA00D3967C /* ForecastKitTests */,
+				5525DC7B1D3D8ACA00D3967C /* DarkSkyKitExample */,
+				5525DC841D3D8ACA00D3967C /* DarkSkyKitExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -310,7 +326,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		5026FC9996AAB20A4B7A6682 /* [CP] Embed Pods Frameworks */ = {
@@ -325,7 +341,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ForecastKitTests/Pods-ForecastKitTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarkSkyKitExampleTests/Pods-DarkSkyKitExampleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7F9644E7CD2E6962A904C7C1 /* [CP] Check Pods Manifest.lock */ = {
@@ -340,7 +356,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		846EAC85F7EB48A932CA462C /* [CP] Copy Pods Resources */ = {
@@ -355,7 +371,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ForecastKitTests/Pods-ForecastKitTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarkSkyKitExampleTests/Pods-DarkSkyKitExampleTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CB7E7BB9F92A39E9F4F0B7AC /* [CP] Copy Pods Resources */ = {
@@ -370,7 +386,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ForecastKit/Pods-ForecastKit-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarkSkyKitExample/Pods-DarkSkyKitExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -416,7 +432,7 @@
 /* Begin PBXTargetDependency section */
 		5525DC881D3D8ACA00D3967C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5525DC7B1D3D8ACA00D3967C /* ForecastKit */;
+			target = 5525DC7B1D3D8ACA00D3967C /* DarkSkyKitExample */;
 			targetProxy = 5525DC871D3D8ACA00D3967C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -511,7 +527,7 @@
 		};
 		5525DC8E1D3D8ACA00D3967C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4ACA336867AD8493662DEE26 /* Pods-ForecastKit.debug.xcconfig */;
+			baseConfigurationReference = 21505191131C1AA1AC555975 /* Pods-DarkSkyKitExample.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -534,7 +550,7 @@
 		};
 		5525DC8F1D3D8ACA00D3967C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 653163D6A76B736BDB8AC81B /* Pods-ForecastKit.release.xcconfig */;
+			baseConfigurationReference = E5287882EDF40734D09FD694 /* Pods-DarkSkyKitExample.release.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -556,7 +572,7 @@
 		};
 		5525DC911D3D8ACA00D3967C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69E1AFFEB523B8AF6CBFF854 /* Pods-ForecastKitTests.debug.xcconfig */;
+			baseConfigurationReference = DE43E9BF7E6793CD2ECD5389 /* Pods-DarkSkyKitExampleTests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ForecastKitTests/Info.plist;
@@ -569,7 +585,7 @@
 		};
 		5525DC921D3D8ACA00D3967C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8781A7AFBF724CA757BBB314 /* Pods-ForecastKitTests.release.xcconfig */;
+			baseConfigurationReference = E52B3C0FE5323EDDF8FE7025 /* Pods-DarkSkyKitExampleTests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ForecastKitTests/Info.plist;
@@ -582,7 +598,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5525DC4F1D3D89FE00D3967C /* Build configuration list for PBXProject "ForecastKit" */ = {
+		5525DC4F1D3D89FE00D3967C /* Build configuration list for PBXProject "DarkSkyKitExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5525DC6F1D3D89FF00D3967C /* Debug */,
@@ -591,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5525DC8D1D3D8ACA00D3967C /* Build configuration list for PBXNativeTarget "ForecastKit" */ = {
+		5525DC8D1D3D8ACA00D3967C /* Build configuration list for PBXNativeTarget "DarkSkyKitExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5525DC8E1D3D8ACA00D3967C /* Debug */,
@@ -600,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5525DC901D3D8ACA00D3967C /* Build configuration list for PBXNativeTarget "ForecastKitTests" */ = {
+		5525DC901D3D8ACA00D3967C /* Build configuration list for PBXNativeTarget "DarkSkyKitExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5525DC911D3D8ACA00D3967C /* Debug */,
