@@ -12,7 +12,7 @@
 		1E1FE0C21D47C0B9003A4AAE /* TimeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC981D3D974700D3967C /* TimeMachine.swift */; };
 		1E1FE0C31D47C0BB003A4AAE /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC961D3D973A00D3967C /* Current.swift */; };
 		1E1FE0C41D47C0BE003A4AAE /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC9A1D3D9ECA00D3967C /* Configuration.swift */; };
-		1E1FE0C51D47C0C0003A4AAE /* ForecastKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC941D3D8C2E00D3967C /* ForecastKit.swift */; };
+		1E1FE0C51D47C0C0003A4AAE /* DarkSkyKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC941D3D8C2E00D3967C /* DarkSkyKit.swift */; };
 		1E1FE0C61D47C11C003A4AAE /* ConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC6C1D3D89FF00D3967C /* ConfigurationTests.swift */; };
 		1E1FE0C81D47CF4D003A4AAE /* ForecastKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1FE0C71D47CF4D003A4AAE /* ForecastKitTests.swift */; };
 		1E433E8E1D476BA80056479A /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E433E8D1D476BA80056479A /* Forecast.swift */; };
@@ -25,7 +25,7 @@
 		1EA9820D1D48FF1900B3CAD3 /* ForecastFlagsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA9820C1D48FF1900B3CAD3 /* ForecastFlagsTests.swift */; };
 		1EA982111D48FFEB00B3CAD3 /* flags.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EA982101D48FFEB00B3CAD3 /* flags.json */; };
 		5525DC861D3D8ACA00D3967C /* DarkSkyKitExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5525DC7C1D3D8ACA00D3967C /* DarkSkyKitExample.framework */; };
-		5525DC951D3D8C2E00D3967C /* ForecastKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC941D3D8C2E00D3967C /* ForecastKit.swift */; };
+		5525DC951D3D8C2E00D3967C /* DarkSkyKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC941D3D8C2E00D3967C /* DarkSkyKit.swift */; };
 		5525DC971D3D973A00D3967C /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC961D3D973A00D3967C /* Current.swift */; };
 		5525DC991D3D974700D3967C /* TimeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC981D3D974700D3967C /* TimeMachine.swift */; };
 		5525DC9B1D3D9ECA00D3967C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC9A1D3D9ECA00D3967C /* Configuration.swift */; };
@@ -58,7 +58,7 @@
 		5525DC6E1D3D89FF00D3967C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5525DC7C1D3D8ACA00D3967C /* DarkSkyKitExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DarkSkyKitExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5525DC851D3D8ACA00D3967C /* DarkSkyKitExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkSkyKitExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5525DC941D3D8C2E00D3967C /* ForecastKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastKit.swift; sourceTree = "<group>"; };
+		5525DC941D3D8C2E00D3967C /* DarkSkyKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkSkyKit.swift; sourceTree = "<group>"; };
 		5525DC961D3D973A00D3967C /* Current.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Current.swift; sourceTree = "<group>"; };
 		5525DC981D3D974700D3967C /* TimeMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeMachine.swift; sourceTree = "<group>"; };
 		5525DC9A1D3D9ECA00D3967C /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 		5525DC561D3D89FF00D3967C /* DarkSkyKit */ = {
 			isa = PBXGroup;
 			children = (
-				5525DC941D3D8C2E00D3967C /* ForecastKit.swift */,
+				5525DC941D3D8C2E00D3967C /* DarkSkyKit.swift */,
 				5525DC9A1D3D9ECA00D3967C /* Configuration.swift */,
 				5525DC961D3D973A00D3967C /* Current.swift */,
 				5525DC981D3D974700D3967C /* TimeMachine.swift */,
@@ -379,7 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E433E971D4792500056479A /* ForecastAlert.swift in Sources */,
-				5525DC951D3D8C2E00D3967C /* ForecastKit.swift in Sources */,
+				5525DC951D3D8C2E00D3967C /* DarkSkyKit.swift in Sources */,
 				5525DC971D3D973A00D3967C /* Current.swift in Sources */,
 				5535ADED1D44270D002959EC /* Router.swift in Sources */,
 				5525DC9B1D3D9ECA00D3967C /* Configuration.swift in Sources */,
@@ -402,7 +402,7 @@
 				1E433E951D47923A0056479A /* ForecastFlags.swift in Sources */,
 				1EA9820D1D48FF1900B3CAD3 /* ForecastFlagsTests.swift in Sources */,
 				1E1FE0C41D47C0BE003A4AAE /* Configuration.swift in Sources */,
-				1E1FE0C51D47C0C0003A4AAE /* ForecastKit.swift in Sources */,
+				1E1FE0C51D47C0C0003A4AAE /* DarkSkyKit.swift in Sources */,
 				1E1FE0C31D47C0BB003A4AAE /* Current.swift in Sources */,
 				1E1FE0C61D47C11C003A4AAE /* ConfigurationTests.swift in Sources */,
 				1E1FE0C81D47CF4D003A4AAE /* ForecastKitTests.swift in Sources */,

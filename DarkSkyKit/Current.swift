@@ -1,7 +1,7 @@
 import Foundation
 import Alamofire
 
-public extension ForecastKit {
+public extension DarkSkyKit {
     public func current(latitude lat: Double, longitude long: Double, result: Result<Forecast, NSError> -> Void) {
         Alamofire.request(Router.Current(configuration, lat, long)).responseJSON { response in
             switch response.result {

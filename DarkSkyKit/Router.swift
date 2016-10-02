@@ -2,7 +2,7 @@ import Foundation
 import Alamofire
 
 enum Router: URLRequestConvertible {
-    private static let baseURLString = "https://api.forecast.io"
+    private static let baseURLString = "https://api.darksky.net"
 
     case Current(Configuration, Double, Double)
     case TimeMachine(Configuration, Double, Double, NSDate)
