@@ -5,7 +5,7 @@ lane :pods do
 end
 
 lane :tests do
-  scan(workspace: "Example/ForecastKit.xcworkspace", scheme: "ForecastKit", clean: true)
+  scan(workspace: "Example/DarkSkyKitExample.xcworkspace", scheme: "DarkSkyKitExample", clean: true)
 end
 
 lane :travis do
@@ -15,11 +15,11 @@ end
 
 lane :push do
   ensure_git_branch
-  version = version_bump_podspec(path: "ForecastKit.podspec")
-  git_commit(path: ["./ForecastKit.podspec", "./Example/Podfile.lock"], message: "#{COMMIT_MESSAGE} #{version}")
+  version = version_bump_podspec(path: "DarkSkyKit.podspec")
+  git_commit(path: ["./DarkSkyKit.podspec", "./Example/Podfile.lock"], message: "#{COMMIT_MESSAGE} #{version}")
   changelog = changelog_from_git_commits
   github_release = set_github_release(
-    repository_name: "carambalabs/ForecastKit",
+    repository_name: "carambalabs/DarkSkyKit",
     api_token: ENV['GITHUB_TOKEN'],
     name: version,
     tag_name: version,
