@@ -30,10 +30,7 @@
 		5525DC991D3D974700D3967C /* TimeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC981D3D974700D3967C /* TimeMachine.swift */; };
 		5525DC9B1D3D9ECA00D3967C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC9A1D3D9ECA00D3967C /* Configuration.swift */; };
 		5535ADED1D44270D002959EC /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5535ADEC1D44270D002959EC /* Router.swift */; };
-		55B43F371D8AD9640000B3D3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55B43F361D8AD9640000B3D3 /* Info.plist */; };
 		D5E32BD5105B038CA4A10B05 /* Pods_DarkSkyKitExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C1E25F35A04708AEEBE999 /* Pods_DarkSkyKitExampleTests.framework */; };
-		DAF33CAFB1CC77C9DCF3FE8D /* Pods_ForecastKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D103EF99E350C94CF2E7F961 /* Pods_ForecastKitTests.framework */; };
-		E64745D6345B372E99F02457 /* Pods_ForecastKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099657DFEBE821B0318B828F /* Pods_ForecastKit.framework */; };
 		F5ADC57F0B8F2D88A238781B /* Pods_DarkSkyKitExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C2E930139FA5009D7F9220 /* Pods_DarkSkyKitExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		099657DFEBE821B0318B828F /* Pods_ForecastKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForecastKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1FE0C71D47CF4D003A4AAE /* ForecastKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastKitTests.swift; sourceTree = "<group>"; };
 		1E433E8D1D476BA80056479A /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Forecast.swift; path = ../Forecast.swift; sourceTree = "<group>"; };
 		1E433E901D4792250056479A /* ForecastDataPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastDataPoint.swift; sourceTree = "<group>"; };
@@ -58,7 +54,6 @@
 		1EA982101D48FFEB00B3CAD3 /* flags.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flags.json; sourceTree = "<group>"; };
 		21505191131C1AA1AC555975 /* Pods-DarkSkyKitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSkyKitExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarkSkyKitExample/Pods-DarkSkyKitExample.debug.xcconfig"; sourceTree = "<group>"; };
 		39C1E25F35A04708AEEBE999 /* Pods_DarkSkyKitExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkSkyKitExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4ACA336867AD8493662DEE26 /* Pods-ForecastKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForecastKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForecastKit/Pods-ForecastKit.debug.xcconfig"; sourceTree = "<group>"; };
 		5525DC6C1D3D89FF00D3967C /* ConfigurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationTests.swift; sourceTree = "<group>"; };
 		5525DC6E1D3D89FF00D3967C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5525DC7C1D3D8ACA00D3967C /* DarkSkyKitExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DarkSkyKitExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,11 +64,7 @@
 		5525DC9A1D3D9ECA00D3967C /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		5535ADEC1D44270D002959EC /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		55B43F361D8AD9640000B3D3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		653163D6A76B736BDB8AC81B /* Pods-ForecastKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForecastKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForecastKit/Pods-ForecastKit.release.xcconfig"; sourceTree = "<group>"; };
-		69E1AFFEB523B8AF6CBFF854 /* Pods-ForecastKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForecastKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForecastKitTests/Pods-ForecastKitTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8781A7AFBF724CA757BBB314 /* Pods-ForecastKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForecastKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForecastKitTests/Pods-ForecastKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		A4C2E930139FA5009D7F9220 /* Pods_DarkSkyKitExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkSkyKitExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D103EF99E350C94CF2E7F961 /* Pods_ForecastKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForecastKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE43E9BF7E6793CD2ECD5389 /* Pods-DarkSkyKitExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSkyKitExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarkSkyKitExampleTests/Pods-DarkSkyKitExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5287882EDF40734D09FD694 /* Pods-DarkSkyKitExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSkyKitExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarkSkyKitExample/Pods-DarkSkyKitExample.release.xcconfig"; sourceTree = "<group>"; };
 		E52B3C0FE5323EDDF8FE7025 /* Pods-DarkSkyKitExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSkyKitExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DarkSkyKitExampleTests/Pods-DarkSkyKitExampleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -84,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E64745D6345B372E99F02457 /* Pods_ForecastKit.framework in Frameworks */,
 				F5ADC57F0B8F2D88A238781B /* Pods_DarkSkyKitExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,7 +84,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5525DC861D3D8ACA00D3967C /* DarkSkyKitExample.framework in Frameworks */,
-				DAF33CAFB1CC77C9DCF3FE8D /* Pods_ForecastKitTests.framework in Frameworks */,
 				D5E32BD5105B038CA4A10B05 /* Pods_DarkSkyKitExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,10 +169,6 @@
 		B3EBC7B04F4CFC7939EC6614 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4ACA336867AD8493662DEE26 /* Pods-ForecastKit.debug.xcconfig */,
-				653163D6A76B736BDB8AC81B /* Pods-ForecastKit.release.xcconfig */,
-				69E1AFFEB523B8AF6CBFF854 /* Pods-ForecastKitTests.debug.xcconfig */,
-				8781A7AFBF724CA757BBB314 /* Pods-ForecastKitTests.release.xcconfig */,
 				21505191131C1AA1AC555975 /* Pods-DarkSkyKitExample.debug.xcconfig */,
 				E5287882EDF40734D09FD694 /* Pods-DarkSkyKitExample.release.xcconfig */,
 				DE43E9BF7E6793CD2ECD5389 /* Pods-DarkSkyKitExampleTests.debug.xcconfig */,
@@ -195,8 +180,6 @@
 		BBEA6A2ED8C69CC013A4DE5E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				099657DFEBE821B0318B828F /* Pods_ForecastKit.framework */,
-				D103EF99E350C94CF2E7F961 /* Pods_ForecastKitTests.framework */,
 				A4C2E930139FA5009D7F9220 /* Pods_DarkSkyKitExample.framework */,
 				39C1E25F35A04708AEEBE999 /* Pods_DarkSkyKitExampleTests.framework */,
 			);
@@ -299,7 +282,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55B43F371D8AD9640000B3D3 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,7 +521,7 @@
 				INFOPLIST_FILE = SupportingFiles/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sergigracia.ForecastKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergigracia.DarkSkyKitExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -562,7 +544,7 @@
 				INFOPLIST_FILE = SupportingFiles/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sergigracia.ForecastKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergigracia.DarkSkyKitExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -575,9 +557,9 @@
 			baseConfigurationReference = DE43E9BF7E6793CD2ECD5389 /* Pods-DarkSkyKitExampleTests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = ForecastKitTests/Info.plist;
+				INFOPLIST_FILE = DarkSkyKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sergigracia.ForecastKitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergigracia.DarkSkyKitExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -588,9 +570,9 @@
 			baseConfigurationReference = E52B3C0FE5323EDDF8FE7025 /* Pods-DarkSkyKitExampleTests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = ForecastKitTests/Info.plist;
+				INFOPLIST_FILE = DarkSkyKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sergigracia.ForecastKitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergigracia.DarkSkyKitExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
