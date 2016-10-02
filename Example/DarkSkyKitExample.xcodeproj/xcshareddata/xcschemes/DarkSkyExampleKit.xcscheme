@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5525DC7B1D3D8ACA00D3967C"
-               BuildableName = "ForecastKit.framework"
-               BlueprintName = "ForecastKit"
-               ReferencedContainer = "container:ForecastKit.xcodeproj">
+               BuildableName = "DarkSkyKitExample.framework"
+               BlueprintName = "DarkSkyKitExample"
+               ReferencedContainer = "container:DarkSkyKitExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5525DC841D3D8ACA00D3967C"
-               BuildableName = "ForecastKitTests.xctest"
-               BlueprintName = "ForecastKitTests"
-               ReferencedContainer = "container:ForecastKit.xcodeproj">
+               BuildableName = "DarkSkyKitExampleTests.xctest"
+               BlueprintName = "DarkSkyKitExampleTests"
+               ReferencedContainer = "container:DarkSkyKitExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5525DC7B1D3D8ACA00D3967C"
-            BuildableName = "ForecastKit.framework"
-            BlueprintName = "ForecastKit"
-            ReferencedContainer = "container:ForecastKit.xcodeproj">
+            BuildableName = "DarkSkyKitExample.framework"
+            BlueprintName = "DarkSkyKitExample"
+            ReferencedContainer = "container:DarkSkyKitExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -67,9 +67,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5525DC7B1D3D8ACA00D3967C"
-            BuildableName = "ForecastKit.framework"
-            BlueprintName = "ForecastKit"
-            ReferencedContainer = "container:ForecastKit.xcodeproj">
+            BuildableName = "DarkSkyKitExample.framework"
+            BlueprintName = "DarkSkyKitExample"
+            ReferencedContainer = "container:DarkSkyKitExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -86,9 +86,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5525DC7B1D3D8ACA00D3967C"
-            BuildableName = "ForecastKit.framework"
-            BlueprintName = "ForecastKit"
-            ReferencedContainer = "container:ForecastKit.xcodeproj">
+            BuildableName = "DarkSkyKitExample.framework"
+            BlueprintName = "DarkSkyKitExample"
+            ReferencedContainer = "container:DarkSkyKitExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

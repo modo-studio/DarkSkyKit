@@ -1,6 +1,6 @@
 import Foundation
 
-public struct ForecastKit {
+public struct DarkSkyKit {
     public let configuration: Configuration
     
     public init(_ apiToken: String) {

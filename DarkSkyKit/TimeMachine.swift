@@ -1,9 +1,9 @@
 import Foundation
 import Alamofire
 
-public extension ForecastKit {
-    public func current(latitude lat: Double, longitude long: Double, result: Result<Forecast, NSError> -> Void) {
-        Alamofire.request(Router.Current(configuration, lat, long)).responseJSON { response in
+public extension DarkSkyKit {
+    public func timeMachine(latitude lat: Double, lognitude long: Double, date: NSDate, result: Result<Forecast, NSError> -> Void) {
+        Alamofire.request(Router.TimeMachine(configuration, lat, long, date)).responseJSON { response in
             switch response.result {
             case .Success(let value):
                 if let json = value as? [String:AnyObject] {
