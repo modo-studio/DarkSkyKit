@@ -12,7 +12,7 @@ Swift client for darksky.net API
   s.source           = { :git => 'https://github.com/carambalabs/DarkSkyKit.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.source_files = 'DarkSkyKit/**/*'
-  s.dependency 'Alamofire/Alamofire', '~> 3.5.0'
+  s.dependency 'Alamofire/Alamofire', '~> 4.0.0'
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.10'
   s.tvos.deployment_target = '9.0'
