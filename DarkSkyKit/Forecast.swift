@@ -44,8 +44,8 @@ public struct Forecast {
     }
 }
 
-extension NSDate {
-    convenience init?(time: Double?) {
+extension Date {
+    init?(time: Double?) {
         guard let t = time else { return nil }
         self.init(timeIntervalSince1970: t)
     }

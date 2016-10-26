@@ -2,7 +2,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'DarkSkyKitExample' do
   use_frameworks!
-  pod 'Alamofire', '3.5.0'
+  pod 'Alamofire', '4.0.0'
 
   target 'DarkSkyKitExampleTests' do
     inherit! :search_paths

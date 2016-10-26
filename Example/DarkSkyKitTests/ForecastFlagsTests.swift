@@ -4,9 +4,9 @@ import Foundation
 class ForecastFlagsTests: XCTestCase {
     func testForecastFlagsMap() {
 
-        if let path = NSBundle.mainBundle().pathForResource("flags", ofType: "json") {
-            let data = try! NSData(contentsOfURL: NSURL(fileURLWithPath: path), options: .DataReadingMappedIfSafe)
-            if let jsonResult: NSDictionary = try! NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers) as? NSDictionary {
+        if let path = Bundle.main.path(forResource: "flags", ofType: "json") {
+            let data = try! Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+            if let jsonResult: NSDictionary = try! JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.mutableContainers) as? NSDictionary {
                 print(jsonResult)
             }
         }

@@ -2,15 +2,15 @@ import Foundation
 import Alamofire
 
 public extension DarkSkyKit {
-    public func timeMachine(latitude lat: Double, lognitude long: Double, date: NSDate, result: Result<Forecast, NSError> -> Void) {
-        Alamofire.request(Router.TimeMachine(configuration, lat, long, date)).responseJSON { response in
+    public func timeMachine(latitude lat: Double, lognitude long: Double, date: Date, result: @escaping (Result<Forecast>) -> Void) {
+        Alamofire.request(Router.timeMachine(configuration, lat, long, date)).responseJSON { response in
             switch response.result {
-            case .Success(let value):
+            case .success(let value):
                 if let json = value as? [String:AnyObject] {
-                    result(Result.Success(Forecast(data: json)))
+                    result(Result.success(Forecast(data: json)))
                 }
-            case .Failure(let error):
-                result(Result.Failure(error))
+            case .failure(let error):
+                result(Result.failure(error))
             }
         }
     }

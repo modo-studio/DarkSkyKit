@@ -11,7 +11,7 @@ public struct ForecastFlags {
     var sources: [String]?
     var units: String?
     
-    static func map(data: [String: AnyObject]) -> ForecastFlags {
+    static func map(_ data: [String: AnyObject]) -> ForecastFlags {
         var f = ForecastFlags()
         f.darkskyStations = data["darksky-stations"] as? [String] ?? nil
         f.datapointStations = data["datapoint-stations"] as? [String] ?? nil

@@ -2,20 +2,21 @@ import Foundation
 import Alamofire
 
 enum Router: URLRequestConvertible {
-    private static let baseURLString = "https://api.darksky.net"
 
-    case Current(Configuration, Double, Double)
-    case TimeMachine(Configuration, Double, Double, NSDate)
+    fileprivate static let baseURLString = "https://api.darksky.net"
 
-    var method: Alamofire.Method {
-        return .GET
+    case current(Configuration, Double, Double)
+    case timeMachine(Configuration, Double, Double, Date)
+
+    var method: HTTPMethod {
+        return .get
     }
 
     var path: String {
         switch self {
-        case .Current(let c, let lat, let long):
+        case .current(let c, let lat, let long):
             return "/forecast/\(c.token)/\(lat),\(long)"
-        case .TimeMachine(let c, let lat, let long, let date):
+        case .timeMachine(let c, let lat, let long, let date):
             return "/forecast/\(c.token)/\(lat),\(long),\(date.timeIntervalSince1970)"
         }
     }
@@ -23,32 +24,33 @@ enum Router: URLRequestConvertible {
     var params: [String: AnyObject] {
         var configuration: Configuration
         switch self {
-        case .Current(let c, _, _):
+        case .current(let c, _, _):
             configuration = c
-        case .TimeMachine(let c, _, _, _):
+        case .timeMachine(let c, _, _, _):
             configuration = c
         }
 
         var parameters = [String: AnyObject]()
         if let units = configuration.units {
-            parameters.updateValue(units.rawValue, forKey: "units")
+            parameters.updateValue(units.rawValue as AnyObject, forKey: "units")
         }
         if let exclude = configuration.exclude {
-            parameters.updateValue(exclude.rawValue, forKey: "exclude")
+            parameters.updateValue(exclude.rawValue as AnyObject, forKey: "exclude")
         }
         if let extend = configuration.extend {
-            parameters.updateValue(extend.rawValue, forKey: "extend")
+            parameters.updateValue(extend.rawValue as AnyObject, forKey: "extend")
         }
         if let lang = configuration.lang {
-            parameters.updateValue(lang, forKey: "lang")
+            parameters.updateValue(lang as AnyObject, forKey: "lang")
         }
         return parameters
     }
 
-    var URLRequest: NSMutableURLRequest {
-        let URL = NSURL(string: Router.baseURLString)!
-        let mutableURLRequest = NSMutableURLRequest(URL: URL.URLByAppendingPathComponent(path)!)
-        mutableURLRequest.HTTPMethod = method.rawValue
-        return Alamofire.ParameterEncoding.URL.encode(mutableURLRequest, parameters: self.params).0
+    func asURLRequest() throws -> URLRequest {
+        let url = try Router.baseURLString.asURL()
+        var urlRequest = URLRequest(url: url.appendingPathComponent(path))
+        urlRequest.httpMethod = method.rawValue
+        urlRequest = try URLEncoding.default.encode(urlRequest, with: self.params)
+        return urlRequest
     }
 }
