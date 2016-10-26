@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DarkSkyKit'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'Client for darksky.net API'
   s.description      = <<-DESC
 Swift client for darksky.net API
