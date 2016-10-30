@@ -22,8 +22,8 @@
 		1E433E951D47923A0056479A /* ForecastFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E433E931D47923A0056479A /* ForecastFlags.swift */; };
 		1E433E971D4792500056479A /* ForecastAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E433E961D4792500056479A /* ForecastAlert.swift */; };
 		1E433E981D4792500056479A /* ForecastAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E433E961D4792500056479A /* ForecastAlert.swift */; };
-		1EA9820D1D48FF1900B3CAD3 /* ForecastFlagsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA9820C1D48FF1900B3CAD3 /* ForecastFlagsTests.swift */; };
-		1EA982111D48FFEB00B3CAD3 /* flags.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EA982101D48FFEB00B3CAD3 /* flags.json */; };
+		1EA9820D1D48FF1900B3CAD3 /* ForecastRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA9820C1D48FF1900B3CAD3 /* ForecastRequestTests.swift */; };
+		1EA982111D48FFEB00B3CAD3 /* forecast.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EA982101D48FFEB00B3CAD3 /* forecast.json */; };
 		5525DC861D3D8ACA00D3967C /* DarkSkyKitExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5525DC7C1D3D8ACA00D3967C /* DarkSkyKitExample.framework */; };
 		5525DC951D3D8C2E00D3967C /* DarkSkyKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC941D3D8C2E00D3967C /* DarkSkyKit.swift */; };
 		5525DC971D3D973A00D3967C /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5525DC961D3D973A00D3967C /* Current.swift */; };
@@ -50,8 +50,8 @@
 		1E433E901D4792250056479A /* ForecastDataPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastDataPoint.swift; sourceTree = "<group>"; };
 		1E433E931D47923A0056479A /* ForecastFlags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastFlags.swift; sourceTree = "<group>"; };
 		1E433E961D4792500056479A /* ForecastAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastAlert.swift; sourceTree = "<group>"; };
-		1EA9820C1D48FF1900B3CAD3 /* ForecastFlagsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastFlagsTests.swift; sourceTree = "<group>"; };
-		1EA982101D48FFEB00B3CAD3 /* flags.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flags.json; sourceTree = "<group>"; };
+		1EA9820C1D48FF1900B3CAD3 /* ForecastRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastRequestTests.swift; sourceTree = "<group>"; };
+		1EA982101D48FFEB00B3CAD3 /* forecast.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = forecast.json; sourceTree = "<group>"; };
 		21505191131C1AA1AC555975 /* Pods-DarkSkyKitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkSkyKitExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DarkSkyKitExample/Pods-DarkSkyKitExample.debug.xcconfig"; sourceTree = "<group>"; };
 		39C1E25F35A04708AEEBE999 /* Pods_DarkSkyKitExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DarkSkyKitExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5525DC6C1D3D89FF00D3967C /* ConfigurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationTests.swift; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 		1EA9820F1D48FFB200B3CAD3 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				1EA982101D48FFEB00B3CAD3 /* flags.json */,
+				1EA982101D48FFEB00B3CAD3 /* forecast.json */,
 			);
 			name = Data;
 			path = jsons;
@@ -152,7 +152,7 @@
 				1EA9820F1D48FFB200B3CAD3 /* Data */,
 				1E1FE0C71D47CF4D003A4AAE /* ForecastKitTests.swift */,
 				5525DC6C1D3D89FF00D3967C /* ConfigurationTests.swift */,
-				1EA9820C1D48FF1900B3CAD3 /* ForecastFlagsTests.swift */,
+				1EA9820C1D48FF1900B3CAD3 /* ForecastRequestTests.swift */,
 				5525DC6E1D3D89FF00D3967C /* Info.plist */,
 			);
 			path = DarkSkyKitTests;
@@ -291,7 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EA982111D48FFEB00B3CAD3 /* flags.json in Resources */,
+				1EA982111D48FFEB00B3CAD3 /* forecast.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +402,7 @@
 				1E1FE0C11D47C0B6003A4AAE /* Router.swift in Sources */,
 				1E433E921D4792250056479A /* ForecastDataPoint.swift in Sources */,
 				1E433E951D47923A0056479A /* ForecastFlags.swift in Sources */,
-				1EA9820D1D48FF1900B3CAD3 /* ForecastFlagsTests.swift in Sources */,
+				1EA9820D1D48FF1900B3CAD3 /* ForecastRequestTests.swift in Sources */,
 				1E1FE0C41D47C0BE003A4AAE /* Configuration.swift in Sources */,
 				1E1FE0C51D47C0C0003A4AAE /* DarkSkyKit.swift in Sources */,
 				1E1FE0C31D47C0BB003A4AAE /* Current.swift in Sources */,
