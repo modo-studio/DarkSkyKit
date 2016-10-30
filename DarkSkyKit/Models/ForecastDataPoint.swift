@@ -1,39 +1,39 @@
 import Foundation
 
 public struct ForecastDataPoint {
-    var time: Date?
-    var summary: String?
-    var icon: String?
-    var sunriseTime: Date?
-    var sunsetTime: Date?
-    var moonPhase: Double?
-    var nearestStormDistance: Double?
-    var nearestStormBearing: Double?
-    var precipIntensity: Double?
-    var precipIntensityMax: Double?
-    var precipIntensityMaxTime: Date?
-    var precipProbability: Double?
-    var precipType: String?
-    var precipAccumulation: Double?
-    var temperature: Double?
-    var temperatureMin: Double?
-    var temperatureMinTime: Date?
-    var temperatureMax: Double?
-    var temperatureMaxTime: Date?
-    var apparentTemperature: Double?
-    var apparentTemperatureMin: Double?
-    var apparentTemperatureMinTime: Date?
-    var apparentTemperatureMax: Double?
-    var apparentTemperatureMaxTime: Date?
-    var dewPoint: Double?
-    var windSpeed: Double?
-    var windBearing: Double?
-    var cloudCover: Double?
-    var humidity: Double?
-    var pressure: Double?
-    var visibility: Double?
-    var ozone: Double?
-    
+    public var time: Date?
+    public var summary: String?
+    public var icon: String?
+    public var sunriseTime: Date?
+    public var sunsetTime: Date?
+    public var moonPhase: Double?
+    public var nearestStormDistance: Double?
+    public var nearestStormBearing: Double?
+    public var precipIntensity: Double?
+    public var precipIntensityMax: Double?
+    public var precipIntensityMaxTime: Date?
+    public var precipProbability: Double?
+    public var precipType: String?
+    public var precipAccumulation: Double?
+    public var temperature: Double?
+    public var temperatureMin: Double?
+    public var temperatureMinTime: Date?
+    public var temperatureMax: Double?
+    public var temperatureMaxTime: Date?
+    public var apparentTemperature: Double?
+    public var apparentTemperatureMin: Double?
+    public var apparentTemperatureMinTime: Date?
+    public var apparentTemperatureMax: Double?
+    public var apparentTemperatureMaxTime: Date?
+    public var dewPoint: Double?
+    public var windSpeed: Double?
+    public var windBearing: Double?
+    public var cloudCover: Double?
+    public var humidity: Double?
+    public var pressure: Double?
+    public var visibility: Double?
+    public var ozone: Double?
+
     static func map(_ data: [String: AnyObject]) -> ForecastDataPoint {
         var p = ForecastDataPoint()
         p.time = Date(time: data["time"] as? Double)
