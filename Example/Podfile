@@ -7,6 +7,7 @@ target 'DarkSkyKitExample' do
 
   target 'DarkSkyKitExampleTests' do
     inherit! :search_paths
-    # Pods for testing
-  end
+      pod 'OHHTTPStubs', '~> 5.2.1'
+      pod 'OHHTTPStubs/Swift', '~> 5.2.1'
+    end
 end
