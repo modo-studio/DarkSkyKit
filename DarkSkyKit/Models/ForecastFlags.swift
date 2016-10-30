@@ -1,16 +1,16 @@
 import Foundation
 
 public struct ForecastFlags {
-    var darkskyStations: [String]?
-    var datapointStations: [String]?
-    var isdStations: [String]?
-    var lampStations: [String]?
-    var metarStations: [String]?
-    var madisStations: [String]?
-    var metnoLicense: [String]?
-    var sources: [String]?
-    var units: String?
-    
+    public var darkskyStations: [String]?
+    public var datapointStations: [String]?
+    public var isdStations: [String]?
+    public var lampStations: [String]?
+    public var metarStations: [String]?
+    public var madisStations: [String]?
+    public var metnoLicense: [String]?
+    public var sources: [String]?
+    public var units: String?
+
     static func map(_ data: [String: AnyObject]) -> ForecastFlags {
         var f = ForecastFlags()
         f.darkskyStations = data["darksky-stations"] as? [String] ?? nil

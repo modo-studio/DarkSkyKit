@@ -1,10 +1,10 @@
 import Foundation
 
 public struct ForecastAlert {
-    var title: String?
-    var expires: Date?
-    var description: String?
-    var uri: String?
+    public var title: String?
+    public var expires: Date?
+    public var description: String?
+    public var uri: String?
 
     static func map(_ data: [String: AnyObject]) -> ForecastAlert {
         var a = ForecastAlert()
