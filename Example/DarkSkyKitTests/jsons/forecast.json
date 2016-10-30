@@ -1,0 +1,160 @@
+{
+    "latitude":37.8267,
+    "longitude":-122.4233,
+    "timezone":"America/Los_Angeles",
+    "offset":-7,
+    "currently":{"time":1477854386,
+        "summary":"Mostly Cloudy",
+        "icon":"partly-cloudy-day",
+        "nearestStormDistance":4,
+        "nearestStormBearing":284,
+        "precipIntensity":0,
+        "precipProbability":0,
+        "temperature":57.34,
+        "apparentTemperature":57.34,
+        "dewPoint":53.97,
+        "humidity":0.88,
+        "windSpeed":10.43,
+        "windBearing":211,
+        "visibility":5.92,
+        "cloudCover":0.92,
+        "pressure":1011.29,
+        "ozone":265.47},
+    "minutely":{
+        "summary":"Mostly cloudy for the hour.",
+        "icon":"partly-cloudy-day",
+        "data":[
+                {
+                "time":1477854360,
+                "precipIntensity":0,
+                "precipProbability":0
+                }
+                ]
+    },
+    "hourly":{
+        "summary":"Light rain until this evening.",
+        "icon":"rain",
+        "data":[
+                {"time":1477854000,
+                "summary":"Light Rain",
+                "icon":"rain",
+                "precipIntensity":0.0138,
+                "precipProbability":0.61,
+                "precipType":"rain",
+                "temperature":57.02,
+                "apparentTemperature":57.02,
+                "dewPoint":53.77,
+                "humidity":0.89,
+                "windSpeed":10.22,
+                "windBearing":211,
+                "visibility":5.87,
+                "cloudCover":0.94,
+                "pressure":1011.26,
+                "ozone":265.27},{"time":1477857600,
+                "summary":"Light Rain",
+                "icon":"rain",
+                "precipIntensity":0.0139,
+                "precipProbability":0.53,
+                "precipType":"rain",
+                "temperature":59.98,
+                "apparentTemperature":59.98,
+                "dewPoint":55.53,
+                "humidity":0.85,
+                "windSpeed":12.21,
+                "windBearing":213,
+                "visibility":6.36,
+                "cloudCover":0.73,
+                "pressure":1011.53,
+                "ozone":267.17
+                }
+                ]
+    },
+    "daily":{
+        "summary":"Light rain throughout the week, with temperatures rising to 72°F on Friday.",
+        "icon":"rain",
+        "data":[
+                {
+                "time":1477810800,
+                "summary":"Rain until evening.",
+                "icon":"rain",
+                "sunriseTime":1477838092,
+                "sunsetTime":1477876452,
+                "moonPhase":0.01,
+                "precipIntensity":0.0136,
+                "precipIntensityMax":0.0919,
+                "precipIntensityMaxTime":1477850400,
+                "precipProbability":0.77,
+                "precipType":"rain",
+                "temperatureMin":56.48,
+                "temperatureMinTime":1477850400,
+                "temperatureMax":62.79,
+                "temperatureMaxTime":1477868400,
+                "apparentTemperatureMin":56.48,
+                "apparentTemperatureMinTime":1477850400,
+                "apparentTemperatureMax":62.79,
+                "apparentTemperatureMaxTime":1477868400,
+                "dewPoint":55.5,
+                "humidity":0.86,
+                "windSpeed":8.25,
+                "windBearing":204,
+                "visibility":7.09,
+                "cloudCover":0.66,
+                "pressure":1012.07,
+                "ozone":260.68
+                }
+                ]
+    },
+    "alerts": [
+               {
+               "title": "Flood Watch for Mason, WA",
+               "time": 1453375020,
+               "expires": 1453407300,
+               "description": "...FLOOD WATCH REMAINS IN EFFECT THROUGH LATE FRIDAY.\n",
+               "uri": "http://alerts.weather.gov/cap/wwacapget.php?x=WA1255E4DB8494.FloodWatch.1255E4DCE35CWA.SEWFFASEW.38e78ec64613478bb70fc6ed9c87f6e6"
+               }
+               ],
+    "flags":{
+        "sources":[
+                   "darksky",
+                   "lamp",
+                   "gfs",
+                   "cmc",
+                   "nam",
+                   "rap",
+                   "rtma",
+                   "sref",
+                   "fnmoc",
+                   "isd",
+                   "nwspa",
+                   "madis",
+                   "nearest-precip"
+                   ],
+        "darksky-stations":[
+                            "KMUX"
+                            ],
+        "lamp-stations":[
+                         "KAPC",
+                         "KCCR",
+                         "KHWD",
+                         "KLVK",
+                         "KNUQ",
+                         "KOAK",
+                         "KPAO",
+                         "KSFO",
+                         "KSQL"
+                         ],
+        "isd-stations":[
+                        "724943-99999",
+                        "745039-99999",
+                        "745065-99999",
+                        "994016-99999",
+                        "998479-99999"],
+        "madis-stations":[
+                          "AU915",
+                          "C5988",
+                          "C8158",
+                          "C9629",
+                          "SFOC1"],
+        "units":"us"}
+}
+
