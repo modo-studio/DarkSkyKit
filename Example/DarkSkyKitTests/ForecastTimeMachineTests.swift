@@ -2,14 +2,14 @@ import XCTest
 import Foundation
 import OHHTTPStubs
 
-class ForecastRequestTests: XCTestCase {
+class ForecastTimeMachineTests: XCTestCase {
 
     let client = DarkSkyKit(apiToken: "0")
 
     func testForecastRequest() {
         stubAPIResponse()
         let exp = expectation(description: "API Call")
-        client.current(latitude: 0.00, longitude: 0.00) { result in
+        client.timeMachine(latitude: 0.00, longitude: 0.00, date: Date(timeIntervalSince1970: 1477854360)) { result in
             switch result {
             case .success(let data):
                 self.testForecastBasicInfo(fromData: data)
