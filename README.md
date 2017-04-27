@@ -35,12 +35,12 @@ Fetch current weather conditions based on a given location.
 ```swift
 forecastClient.current(latitude: 0.34565, longitude: 1.64559) { result in
   switch result {
-    case .Success(let forecast):
+    case .success(let forecast):
       // Manage weather data using the Forecast model. Ex:
       if let current = forecast.currently {
         let t = current.temperature
       }
-    case .Failure(let error):
+    case .failure(let error):
       // Manage error case
   }
 }
