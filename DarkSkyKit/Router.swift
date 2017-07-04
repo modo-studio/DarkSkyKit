@@ -17,7 +17,7 @@ enum Router: URLRequestConvertible {
         case .current(let c, let lat, let long):
             return "/forecast/\(c.token)/\(lat),\(long)"
         case .timeMachine(let c, let lat, let long, let date):
-            return "/forecast/\(c.token)/\(lat),\(long),\(date.timeIntervalSince1970)"
+            return "/forecast/\(c.token)/\(lat),\(long),\(Int(round(date.timeIntervalSince1970)))"
         }
     }
 
